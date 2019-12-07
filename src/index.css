@@ -1,0 +1,30 @@
+body {
+    padding: 50px;
+    background-image: url("bg.jpg");
+    background-color: #66CCFF;
+    font-family: sans-serif;
+
+  }
+  #container {
+    display: flex;
+    justify-content: center;
+  }
+
+.input{
+    border-radius: 5px;
+}
+.button{
+  border-radius:  5px;
+}
+#done  li span{
+  text-decoration: line-through;
+}
+
+#done  li div b{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+.thisX:hover {  font-weight: bolder ;}

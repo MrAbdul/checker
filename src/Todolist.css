@@ -1,0 +1,55 @@
+.todoListMain .header input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    width: 165px;
+  }
+  .todoListMain .header .button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: #0066FF;
+    color: #FFF;
+    border: 2px solid #0066FF;
+  }
+  .button-delete{
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: rgb(255, 74, 74);
+    color: #FFF;
+    border: 2px solid rgb(255, 74, 74);
+    border-radius: 5px;
+  }
+  .button-delete:hover{
+
+  background-color:rgb(160, 2, 2);
+  border: 2px solid rgb(160, 2, 2);
+  cursor: pointer;
+  }
+  .todoListMain .header .button:hover {
+    background-color: #003399;
+    border: 2px solid #003399;
+    cursor: pointer;
+  }
+  .todoListMain .theList {
+    list-style: none;
+    padding-left: 0;
+    width: 250px;
+  } 
+  .todoListMain .theList li {
+    color: #333;
+    background-color: rgba(255,255,255,.5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+  }
+  .todoListMain .theList li:hover{
+      background-color: rgba(255, 255, 255, 0.74);
+  } 
+  ul.theList {
+    padding: 0;
+  }
